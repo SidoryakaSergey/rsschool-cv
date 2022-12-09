@@ -36,7 +36,13 @@ Professional installation and configuration of the entire family of Windows, and
 
 ---
 
-```function codility() {
+```
+const A = [
+  9, 9, 3, 5, 3, 7, 7, 10, 10, 11, 11, 12, 12, 13, 14, 13, 14, 15, 15, 16, 16,
+  18, 18, 19, 20, 21, 20, 21,
+];
+
+function codility() {
   const len = A.length;
   if (len === 0) {
     return 1;
@@ -62,4 +68,19 @@ Professional installation and configuration of the entire family of Windows, and
     return A[0] - 1;
   }
 }
+
 ```
+
+## **Education**
+
+---
+
+- ### Donetsk State Institute of Artificial Intelligence
+  - Intelligent control systems
+- ### GOIT
+  - HTML5,JavaScript, JQuery, Ajax
+
+## **Languages**
+
+- Ukrainian, Russian - native speaker.
+- English - A2 (B1 in process…)
