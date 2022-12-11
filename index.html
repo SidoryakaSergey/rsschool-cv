@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
+      rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <!-- Main -->
@@ -30,7 +29,7 @@
             programs and scripts to automate.
           </p>
         </div>
-        <hr />
+        <hr>
         <!-- Education -->
         <div>
           <h3 class="title">Education</h3>
@@ -41,34 +40,20 @@
           <h4 class="education-name">GOIT</h4>
           <p class="education-spec">HTML5,JavaScript, JQuery, Ajax</p>
         </div>
-        <hr />
+        <hr>
         <div>
           <h3 class="title">Code Example</h3>
           <div class="codeExample-wraper">
-            <code
-              >const A = [ 9, 9, 3, 5, 3, 7, 7, 10, 10, 11, 11, 12, 12, 13, 14,
-              13, 14, 15, 15, 16, 16, 18, 18, 19, 20, 21, 20, 21, ];
-              <br />function codility() { <br />
-              &nbsp;const len = A.length; <br />
-              &nbsp;if (len === 0) { <br />&nbsp;&nbsp;return 1; <br />&nbsp;}
-              <br />
-              &nbsp;if (len === 1) { <br />&nbsp;&nbsp;if (A[0] === 1) {
-              <br />&nbsp;&nbsp;&nbsp;return 2; <br />&nbsp;&nbsp; } else {
-              <br />&nbsp;&nbsp;&nbsp;return A[0] - 1; <br />&nbsp;&nbsp; }
-              <br />&nbsp;} <br />&nbsp;A.sort((a, b) => {<br />&nbsp;&nbsp;
-              return a - b; <br />&nbsp;}); <br />&nbsp;for (let i = 0; i < len
-              - 1; i++) {<br />&nbsp;&nbsp; if (A[i] + 1 != A[i + 1]) {<br />&nbsp;&nbsp;&nbsp;
-              return A[i] + 1; <br />&nbsp;&nbsp;} <br />&nbsp;} <br />&nbsp; if
-              (A[0] === 1) { <br />&nbsp;&nbsp;return A[len - 1] + 1;<br />&nbsp;
-              } else {<br />&nbsp;&nbsp; return A[0] - 1; <br />&nbsp;}<br />
-              }
+            <code>
+              const A = [1, 2, 3, 4, ]; const K = 4; function solution(A, K) {
+              for (let j = 0; j < K; j++) { A.unshift(A.pop()); } return A; }
             </code>
           </div>
         </div>
       </div>
       <!-- Sidebar -->
       <aside class="sidebar">
-        <img class="photo" src="./my_photo_resume.jpg" alt="user photo" />
+        <img class="photo" src="./my_photo_resume.jpg" alt="user photo">
         <!-- Contact -->
         <div class="contacts">
           <h3 class="sidebar-title">Contacts</h3>
