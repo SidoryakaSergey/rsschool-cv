@@ -9,6 +9,17 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  color: #000000;
+}
 
 .main-content {
   background-color: #fff;
@@ -166,4 +177,20 @@ body {
 
 .languages-list-item {
   color: #fb6d3a;
+}
+
+footer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+footer > div {
+  display: flex;
+  width: 1200px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-rsschool3 {
+  width: 80px;
 }
